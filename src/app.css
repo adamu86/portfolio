@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-biscay: #1e3a76;
+  --color-kashmir-blue: #506f9b;
+  --color-bali-hai: #7d9cb5;
+  --color-pigeon-post: #a5c1d5;
+  --color-botticelli : #d8e6ee;
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url('/fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    font-family: Quicksand, sans-serif;
+    @apply
+    text-slate-200
+    from-gray-900 
+    via-slate-700 
+    to-zinc-800 
+    bg-gradient-to-r
+}
+
+body {
+  @apply
+  px-4
+}
