@@ -22,7 +22,7 @@
             </h2>
             
             <div class="grid gap-3">
-                <h3 class="text-2xl">
+                <h3 class="text-2xl text-slate-300">
                     Zainteresowania
                 </h3>
                 <Divider direction="horizontal"/>
@@ -34,7 +34,7 @@
                         Poza kompem często jeżdżę na rowerze lub spaceruję - dobry sposób na <i>odświeżenie umysłu</i>.
                     </p>
                     <p>
-                    Oprócz tego muzyka to nieodłączny element mojego życia – szczególnie japońska. Towarzyszy mi praktycznie cały czas, niezależnie od tego, co robię.
+                        Oprócz tego muzyka to nieodłączny element mojego życia – szczególnie japońska. Towarzyszy mi praktycznie cały czas, niezależnie od tego, co robię.
                     </p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="grid gap-3">
-                <h2 class="text-2xl">
+                <h2 class="text-2xl text-slate-300">
                     Umiejętności
                 </h2>
                 <Divider direction="horizontal"/>
@@ -62,7 +62,7 @@
                         Posiadam podstawową znajomość React'a. Aktualnie uczę się frameworka Svelte.
                     </p>
                     <p>
-                        Cały czas też poszerzam swoją wiedzę z zakresu JavaScript'u, TypeScript'u i CSS.
+                        Cały czas też poszerzam swoją wiedzę z zakresu języka JavaScript, TypeScript i CSS.
                     </p>
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mx-auto [&>span]:w-10 [&>span]:h-10">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="text-xl grid gap-2 mt-8">
                     <p>
-                        Poza wyżej wspomnianymi technologiami, w minimalnym stopniu znam języki takie jak C#, Python, Java
+                        Poza wyżej wspomnianymi technologiami, w minimalnym stopniu znam języki takie jak C#, Python, Java.
                     </p>
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mx-auto [&>span]:w-10 [&>span]:h-10">
@@ -89,18 +89,18 @@
         </li>
 
         <li class="section">
-            <h2 class="section-header italic">
+            <h2 class="section-header italic ">
                 Projekty
             </h2>
             <ol class="grid gap-3 text-xl list-disc pl-5">
                 <li>
-                    NonogramNest - aplikacja internetowa umożliwiająca rozgrywkę w nonogramy. Praca inżynierska i za razem mój największy projekt z wykorzystaniem Vue.js, Tailwind CSS, Express.js i PostgreSQL.
+                    NonogramNest - aplikacja internetowa umożliwiająca rozgrywkę w nonogramy. Praca inżynierska i za razem mój największy projekt z wykorzystaniem Vue.js, Tailwind CSS, Express.js i PostgreSQL
                 </li>
                 <li>
-                    Portfolio dla lekarza
+                    RYD UI - własna bilbioteka komponentów dla Vue.js z wykorzystaniem Tailwind CSS (<b>rozwijana</b>)
                 </li>
                 <li>
-                    RYD UI - własna bilbioteka komponentów dla Vue.js z wykorzystaniem Tailwind CSS (<b>rozwijana</b>).
+                    Portfolio dla lekarza z wykorzystaniem Vue.js i Tailwind CSS
                 </li>
             </ol>
         </li>
@@ -116,13 +116,13 @@
                         adameq86@gmail.com
                     </p>
                 </a>
-                <a href="/" class="flex gap-2">
+                <a href="https://www.linkedin.com/in/adam-grzeszczuk/" class="flex gap-2">
                     <span class="icon-[tabler--brand-linkedin]"></span>
                     <p>
                         LinkedIn
                     </p>
                 </a>
-                <a href="/" class="flex gap-2">
+                <a href="https://github.com/adamu86" class="flex gap-2">
                     <span class="icon-[tabler--brand-github]"></span>
                     <p>
                         GitHub
