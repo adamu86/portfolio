@@ -4,21 +4,23 @@
 
 </script>
 
-<main class="min-w-120 max-w-200 mx-auto p-6 grid gap-6">
+<main class="min-w-100 max-w-210 mx-auto p-6 grid gap-6">
     <nav class="grid place-items-center gap-4">
         <img src="profile.jpeg" alt="Zdjęcie" class="w-56 h-56 rounded-full shadow-xl">
-        <h1 class="text-5xl font-bold">
-            Adam Grzeszczuk
-        </h1>
+        <div class="w-fit">
+            <h1 class="text-[clamp(2rem,10vw,3rem)] font-bold">
+                Adam Grzeszczuk
+            </h1>
 
-        <p class="text-2xl italic ml-30 px-1 font-extrabold bg-gradient-to-r from-blue-400 via-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-            FRONTEND DEVELOPER
-        </p>
+            <h2 class="text-[clamp(1rem,5vw,1.5rem)] text-right italic px-1 font-extrabold bg-gradient-to-r from-blue-400 via-cyan-500 to-indigo-400 text-transparent bg-clip-text">
+                FRONTEND DEVELOPER
+            </h2>
+        </div>
     </nav>    
     <ul class="grid gap-6">
         <li class="section grid gap-10">
-            <h2 class="text-3xl italic section-header">
-                O mnie
+            <h2 class="text-3xl font-bold section-header">
+                O MNIE
             </h2>
             
             <div class="grid gap-3">
@@ -28,13 +30,13 @@
                 <Divider direction="horizontal"/>
                 <div class="grid gap-2 text-xl">
                     <p>
-                        Interesuję się frontendem – uwielbiam majstrować przy interfejsach, poprawiać detale i ogarniać, żeby wszystko działało i wyglądało git.
+                        Interesuję się frontendem – lubię majstrować przy interfejsach, ulepszać detale i dbać o to, żeby wszystko działało sprawnie i wyglądało git.
                     </p>
                     <p>
-                        Poza kompem często jeżdżę na rowerze lub spaceruję - dobry sposób na <i>odświeżenie umysłu</i>.
+                        Poza kompem często jeżdżę na rowerze albo spaceruję – dobry sposób na <i>odświeżenie umysłu</i>.
                     </p>
                     <p>
-                        Oprócz tego muzyka to nieodłączny element mojego życia – szczególnie japońska. Towarzyszy mi praktycznie cały czas, niezależnie od tego, co robię.
+                        Muzyka to też stała część mojego życia – szczególnie japońska. Towarzyszy mi praktycznie non stop, niezależnie od tego, co akurat robię.
                     </p>
                 </div>
             </div>
@@ -45,7 +47,7 @@
                 </h3>
                 <Divider direction="horizontal"/>
                 <p class="text-xl">
-                    Ukończyłem studia inżynierskie na Politechnice Białostockiej w 2025 roku z wynikiem bardzo dobrym. Obecnie kontynuuję naukę na studiach magisterskich na tej samej uczelni. 
+                    Ukończyłem studia inżynierskie na Politechnice Białostockiej w 2025 roku z wynikiem bardzo dobrym. Obecnie kontynuuję naukę na studiach magisterskich na tej samej uczelni.
                 </p>
             </div>
 
@@ -56,13 +58,13 @@
                 <Divider direction="horizontal"/>
                 <div class="text-xl grid gap-2">
                     <p>
-                        Dobrze znam framework Vue oraz Tailwind CSS – często korzystam z tych narzędzi przy projektach.
+                        Dobrze znam framework Vue.js oraz Tailwind CSS – często korzystam z tych narzędzi przy projektach.
                     </p>
                     <p>
-                        Posiadam podstawową znajomość React'a. Aktualnie uczę się frameworka Svelte.
+                        Mam podstawową znajomość Reacta. Aktualnie uczę się frameworka Svelte.
                     </p>
                     <p>
-                        Cały czas też poszerzam swoją wiedzę z zakresu języka JavaScript, TypeScript i CSS.
+                        Cały czas poszerzam też swoją wiedzę z zakresu JavaScriptu, TypeScriptu i CSS-a.
                     </p>
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mx-auto [&>span]:w-10 [&>span]:h-10">
@@ -77,7 +79,7 @@
                 </div>
                 <div class="text-xl grid gap-2 mt-8">
                     <p>
-                        Poza wyżej wspomnianymi technologiami, w minimalnym stopniu znam języki takie jak C#, Python, Java.
+                        Poza wyżej wspomnianymi technologiami w minimalnym stopniu znam lub miałem do czynienia z językami takimi jak C#, Python i Java.
                     </p>
                 </div>
                 <div class="flex flex-wrap justify-center gap-4 mx-auto [&>span]:w-10 [&>span]:h-10">
@@ -89,8 +91,8 @@
         </li>
 
         <li class="section">
-            <h2 class="section-header italic ">
-                Projekty
+            <h2 class="section-header font-bold">
+                PROJEKTY
             </h2>
             <ol class="grid gap-3 text-xl list-disc pl-5">
                 <li>
@@ -102,12 +104,15 @@
                 <li>
                     Portfolio dla lekarza z wykorzystaniem Vue.js i Tailwind CSS
                 </li>
+                <li>
+                    Moje portfolio w Svelte, które właśnie przeglądasz <i>ツ</i>
+                </li>
             </ol>
         </li>
 
         <li class="section">
-            <h2 class="section-header italic">
-                Kontakt
+            <h2 class="section-header font-bold">
+                KONTAKT
             </h2>
             <div class="grid gap-2 text-xl">
                 <a href="mailto:adameq86@gmail.com" class="flex gap-2">

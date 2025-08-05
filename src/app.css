@@ -24,8 +24,8 @@ html {
     @apply
     text-slate-200
     from-slate-800 
-    via-gray-700
-    to-zinc-800 
+    via-cyan-950
+    to-gray-800 
     bg-gradient-to-r
 }
 
@@ -36,7 +36,12 @@ html {
 
 .section-header {
   @apply
-  bg-black/10 -m-6 mb-0 p-4 text-3xl shadow-xl shadow-gray-500/5
+  bg-black/5 backdrop-blur-2xl -m-6 mb-0 p-4 pr-5 text-3xl shadow-xl shadow-gray-500/5 w-fit rounded-br-3xl relative
+}
+
+.section-header::before {
+  @apply
+  absolute top-0 bg-black/5 left-0 h-full w-200 p-2 content-[""]
 }
 
 a {
