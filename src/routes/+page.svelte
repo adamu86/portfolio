@@ -6,7 +6,7 @@
 
 <main class="min-w-100 max-w-210 mx-auto p-6 grid gap-6">
     <nav class="grid place-items-center gap-4">
-        <img src="profile.jpeg" alt="Zdjęcie" class="w-56 h-56 rounded-full shadow-xl">
+        <img src="profile.png" alt="Zdjęcie" class="w-56 h-56 rounded-full shadow-xl">
         <div class="w-fit">
             <h1 class="text-[clamp(2rem,10vw,3rem)] font-bold">
                 Adam Grzeszczuk
